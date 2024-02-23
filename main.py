@@ -1,10 +1,11 @@
 import random
 
 
-def secret_santa(names):
+def secret_santa(secret_santa_names):
     """Function: Returns a list of secret santa's and their receivers in a format."""
-    secret_santa_names = names
+    # print(secret_santa_names)
     random.shuffle(secret_santa_names)
+    # print(secret_santa_names)
 
     first_name = secret_santa_names[0]
     for i in range(len(secret_santa_names)):
